@@ -4,6 +4,8 @@ import cairosvg
 import math
 import os
 import argparse
+
+
 from PIL import Image
 
 # --- Main Configuration ---
