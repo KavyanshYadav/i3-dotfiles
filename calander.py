@@ -15,7 +15,7 @@ BIRTH_DATE = datetime.date(2006, 2, 9)
 # --- New Feature: Reminders ---
 # Add the number of any week you want to highlight (1-based index).
 # Example: Week 52 is the last week of the first year. Week 53 is the first of the second year.
-REMINDER_WEEKS = [1014,1017,1035] # e.g. End of year 2.5, 5, 10, 20, 30, 40
+REMINDER_WEEKS = [1014,1017,1029,1035] # e.g. End of year 2.5, 5, 10, 20, 30, 40
 
 # --- New Feature: Scale & Position ---
 # Adjust the overall size of the calendar

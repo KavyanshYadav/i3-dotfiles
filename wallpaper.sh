@@ -6,7 +6,7 @@ WALLPAPER2="/path/to/wallpaper_monitor2.jpg"
 
 # Run your calendar script to generate a dynamic wallpaper for one monitor
 # Assuming calendar.py generates to a specific known path, e.g., ~/Pictures/calendar_wallpaper.png
-/usr/bin/python3 ./calander.py --ratio16x9
+/usr/bin/python3 ~/.config/i3/calander.py --ratio16x9
 CALENDAR_WALLPAPER="/home/aufvim/life_calendar_16x9.png" # Adjust path as needed
 
 # Determine which monitor gets which wallpaper.
@@ -34,4 +34,5 @@ MONITOR2_NAME="HDMI-1-0" # Your second monitor
 
 # The most robust way is to use --output for each monitor:
 feh --bg-fill "$CALENDAR_WALLPAPER" --output "$MONITOR1_NAME" --bg-fill "$WALLPAPER1" --output "$MONITOR2_NAME"
+
 # This command sets the background for specific outputs directly.
